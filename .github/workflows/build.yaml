@@ -30,7 +30,7 @@ jobs:
 
       - name: Update README file
         env:
-          ACCESS_TOKEN: ${{ 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 }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
 
